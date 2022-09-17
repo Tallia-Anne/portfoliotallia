@@ -1,0 +1,24 @@
+.formulaire {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.formulaire label {
+display: none;
+}
+
+.formulaire .Form-container {
+padding-bottom: 12px;
+
+}
+
+.formulaire button {
+margin: 10px auto;
+padding: 12px 12px;
+background-color: brown;
+color: white;
+border-radius: 8px;
+border: none;
+}

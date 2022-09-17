@@ -1,0 +1,12 @@
+.sectiontag {
+
+    padding: 22px 22px;
+    border-top: 1px solid slategray;
+    border-bottom: 1px solid slategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 69%;
+    margin: 0 auto;
+
+}

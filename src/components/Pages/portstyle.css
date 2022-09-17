@@ -1,0 +1,63 @@
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+:root {
+  --main-radius: 5px;
+  --main-padding: 5px;
+}
+
+
+
+.Contportfolio {
+  width: 100%;
+}
+
+
+
+.heroportfolio {
+ 
+  grid-area: heroportfolio;
+
+}
+
+
+
+.projets {
+  grid-area: projets;  
+}
+
+
+
+footer {
+  grid-area: footer;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+}
+
+a {
+  text-align: center;
+  display: block;
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .Contportfolio {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+    grid-template-areas:
+      "heroportfolio"
+      "projets"
+      "footer";
+  }
+
+
+}

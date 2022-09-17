@@ -1,0 +1,112 @@
+.card {
+  height: 100%;
+  background: #f8f4f0;
+  width: 100%;
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  overflow: hidden;
+}
+
+.card::after {
+  content: ' ';
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background: #e5e5e5;
+  top: 0;
+  right: 0;
+}
+
+.card:nth-last-child(1)::after {
+  display: none;
+}
+
+.card-text {
+  font-size: 50px;
+  transition: 120ms color ease-in;
+  visibility: hidden;
+}
+
+.card-text:hover {
+visibility: visible;
+font-size: 50px;
+  transition: 120ms color ease-in;
+
+}
+
+@media (max-width: 1112px) {
+  .card-text {
+    font-size: 20rem;
+
+  }
+}
+
+.card-number {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  margin: 0;
+  font-size: 1.125rem;
+  color: #343434;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
+  opacity: 0;
+  transition: 300ms opacity ease;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover {
+  cursor: pointer;
+  background: black;
+      width: 790px;
+  transition: 120ms color ease-in;
+  
+}
+
+.card:hover .card-text {
+  color: white;
+}
+
+.card:hover .card-number {
+  color: #f8f4f0;
+}
+
+.card:hover .background-image {
+  opacity: 1;
+  animation: zoom 20s linear 0s;
+  
+}
+
+@media (max-width: 768px) {
+  .card-text {
+    font-size: 15rem;
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(2);
+  }
+}

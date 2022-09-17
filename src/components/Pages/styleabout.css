@@ -1,0 +1,100 @@
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+:root {
+  --main-radius: 5px;
+  --main-padding: 5px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.About {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-template-areas:
+    "hero hero hero hero"
+    "sectintroabout sectintroabout sectintroabout sectintroabout"
+    "sectaboutpresentation sectaboutpresentation sectaboutpresentation sectaboutpresentation"
+    "container container container container"
+    "containertimeline containertimeline containertimeline containertimeline"
+    "sectQualite sectQualite sectQualite sectQualite"
+    "footer footer footer footer";
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+.hero {
+ 
+  grid-area: hero;
+
+}
+
+.sectintroabout {
+grid-area: sectintroabout;
+}
+.sectaboutpresentation {
+grid-area: sectaboutpresentation;
+}
+
+.container {
+grid-area: container;
+}
+
+.containertimeline {
+grid-area: containertimeline;
+}
+
+
+
+.sectQualite {
+grid-area: sectQualite;
+}
+
+
+footer {
+  grid-area: footer;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+}
+
+a {
+  text-align: center;
+  display: block;
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .About {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+    grid-template-areas:
+    "hero"
+    "sectintroabout"
+    "sectaboutpresentation"
+    "container"
+    "containertimeline"
+    "secQualite"
+    "footer";
+  }
+
+  .container {
+  height: 2800px;
+  width: 100%;
+}
+
+
+}

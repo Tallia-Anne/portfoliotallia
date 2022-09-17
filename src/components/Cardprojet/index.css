@@ -1,0 +1,17 @@
+.activemodale {
+
+position: absolute;
+    left: 38%;
+    top: 88%;
+    background: linear-gradient(to right, #8E54E9, #4776E6);
+    box-shadow: 0 0 5px lightblue;
+    padding: 5px 5px;
+    border-radius: 50%;
+    width: 82px;
+    height: 82px;
+    font-size: 47px;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+
+}

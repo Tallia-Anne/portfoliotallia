@@ -1,0 +1,46 @@
+.sectintroabout {
+display: grid;
+grid-template-columns: 1fr 1fr;
+background-color: #380443;
+height: 200px;
+}
+
+.sectabout-title, .sectabout-text {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.sectabout-text {
+
+padding: 20px;
+
+}
+
+.who {
+
+font-size: 20px;
+text-transform: uppercase;
+color: #FFF;
+}
+
+.textp {
+
+font-size: 15px;
+text-align: justify;
+text-justify: inter-word;
+line-height: 1.5;
+color: #FFF;
+
+}
+
+@media only screen and (max-width: 480px) {
+
+.sectintroabout {
+display: grid;
+grid-template-columns: 1fr;
+background-color: #380443;
+height: 500px;
+}
+
+}

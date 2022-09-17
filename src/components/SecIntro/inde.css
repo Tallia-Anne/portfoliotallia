@@ -1,0 +1,40 @@
+.sectintro {
+width: 100%;
+height: 705px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 20px;
+}
+
+.sectintro h1 {
+text-align: start;
+padding: 20px;
+font-family: 'IM Fell Great Primer SC', serif;
+color: #000;
+font-weight: 400;
+text-transform: uppercase;
+font-size: 42px;
+}
+
+.sectintro .introtext {
+display: flex;
+justify-content: center;
+padding: 20px;
+flex-direction: column;
+}
+.sectintro .introtext p {
+line-height: 2;
+text-align: start;
+font-family: 'Playfair Display', serif;
+font-weight: 300;
+font-size: 14px;
+}
+
+button {
+margin: 12px;
+width: 200px;
+padding: 12px 18px;
+background-color: transparent;
+border: 1px solid black;
+}

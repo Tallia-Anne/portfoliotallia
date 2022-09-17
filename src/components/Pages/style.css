@@ -1,0 +1,144 @@
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+:root {
+  --main-radius: 5px;
+  --main-padding: 5px;
+}
+
+
+[data-theme='dark'] {
+  --background: #000;
+  --text-primary: #fff;
+  --text-secondary: #8e05c2;
+  --accent: #8e05c2;
+  --border: #808080;
+  --form-bg: #191919;
+}
+.theme-toggle i {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.theme-toggle {
+  text-align: center;
+}
+
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.Home {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-template-areas:
+    "hero hero hero hero"
+    "sectintro sectintro sectintrogalerie1 sectiongalerie2"
+    "sectionhomeparallaxe sectionhomeparallaxe sectionhomeparallaxe sectionhomeparallaxe "
+    "main-app main-app main-app main-app "
+    /* "reactSlick reactSlick reactSlick reactSlick" */
+    "contact contact contact contact"
+    "footer footer footer footer";
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+.hero {
+ 
+  grid-area: hero;
+
+}
+
+
+
+.sectintro {
+  grid-area: sectintro;  
+}
+
+.sectiongalerie1 {
+  grid-area: sectintrogalerie1;
+
+}
+
+.sectiongalerie2 {  
+  grid-area: sectiongalerie2;
+  opacity: 1;
+}
+
+.sectionhomeparallaxe {  
+  grid-area: sectionhomeparallaxe ;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.main-app {
+  grid-area: main-app;
+}
+/* .reactSlick {
+grid-area: reactSlick;
+} */
+
+footer {
+  background: #1de9b6;
+  grid-area: footer;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+}
+
+a {
+  text-align: center;
+  display: block;
+  font-family: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .Home {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+    grid-template-areas:
+      "hero"
+      "sectintro"
+      "sectintrogalerie1"
+      "sectintrogalerie2"
+      "sectionhomeparallaxe"
+      "main-app"
+      /* "reactSlick" */
+      "contact"
+      "footer";
+  }
+.sectintrogalerie2 {
+visibility: hidden;
+}
+
+.main-app {
+grid-template-columns: 1fr;
+}
+
+.sectiongalerie2 {  
+  width: 100%;
+}
+.sectintrogalerie2 .galeri3 {
+width: 100%;
+height: 400px;
+}
+
+.sectintrogalerie2  .galeri3 img {
+background-size: cover;
+}
+}

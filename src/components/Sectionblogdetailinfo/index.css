@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.post-content {
+    margin-top: 10rem!important;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 41px;
+}
+
+.text-pun{
+padding-bottom: 12px;
+}
+.text-pdeux{
+padding-top: 32px;
+}

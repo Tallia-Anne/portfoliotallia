@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import * as React from "react";
+//Importation des routes
+import { Routes, Route } from "react-router-dom";
+// Les importations les pages
+import Acceuil from './components/Pages/Acceuil'
+import About from "./components/Pages/About";
+import Portfolio from "./components/Pages/Portfolio";
+import Header from "./components/Header";
+import Test from "./components/Pages/Test";
+// import ThemeContextProvider from "./Context/ThemeContext"
+import Pageblogdetails  from "./components/Pages/Pageblogdetails"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ThemeContextProvider/> */}
+      <Header />
+      <Routes>
+        <Route path="/" element={<Acceuil />} />
+        <Route path="about" element={<About />} />
+        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="pageblogdetails/:id" element={<Pageblogdetails />} exact />
+        <Route path="test" element={<Test/>} />
+
+      </Routes>
+      
+     
     </div>
   );
 }

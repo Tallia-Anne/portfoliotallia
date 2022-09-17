@@ -1,0 +1,100 @@
+.contact {
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding: 32px;
+height: 500px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+
+} 
+.form {
+background: white;
+    width: 370px;
+    height: 419px;
+    z-index: 2000;
+}
+
+.form-contact {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    margin: 0 auto;
+    width: 400px;
+    height: 450px;
+    background: white;
+}
+
+.form-contact .input-form {
+padding: 12px;
+
+}
+input[type="email" i], input[type="nom" i] {
+border: 1px solid rgba(56, 55, 55, 0.961);
+background-color: transparent;
+
+}
+input[type="submit" i] {
+background-color: transparent;
+padding: 12px 32px;
+border: 1px solid black;
+}
+textarea[name=comment]
+{
+ resize : none;
+width: 250px;
+}
+
+.inform {
+width: 250px;
+border: 1 solid black;
+padding: 12px;
+
+}
+
+.espace-contact {
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+
+.espace-contact .box-text {
+width: 300px;
+background-color: white;
+padding: 22px 72px;
+border-radius: 12px;
+
+}
+.espace-contact .box-text:hover {
+box-shadow: 1px 1px 1px black;
+
+}
+
+@media only screen and (max-width: 480px) {
+.contact {
+display: grid;
+grid-template-columns: 1fr ;
+padding-top: 32px;
+height: 736px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+width: 100%;
+
+} 
+.espace-contact {
+padding: 20px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+
+}

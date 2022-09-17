@@ -1,0 +1,73 @@
+@import url('http://fonts.cdnfonts.com/css/sehaty');
+
+.sectaboutpresentation {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 500px;
+}
+
+.sectaboutimage{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 30px;
+}
+
+.sectaboutimage .img-bg {
+width: 280px;
+height: 450px;
+box-shadow: 0px 6px 8px 3px #e8e3e3;
+}
+.sectimagetallia {
+object-fit: cover;
+object-position: center;
+width: 100%;
+height: 100%;
+}
+
+.sectabout-person {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.sectabout-person h3 {
+
+padding-bottom: 42px;
+font-size: 20px;
+font-family: 'sehaty', sans-serif;
+                                                           
+}
+
+.sectabout-text {
+padding: 20px;
+}
+
+
+
+.textpre {
+    font-size: 14px;
+    padding: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+.sectaboutpresentation{
+display: grid;
+grid-template-columns: 1fr;
+height: 1300px;
+width: 100%;
+}
+
+.sectabout-person h3 {
+
+
+font-size: 20px;
+}
+
+}

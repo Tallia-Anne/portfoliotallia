@@ -1,0 +1,22 @@
+.sectiongalerie2 {
+ display: flex;
+gap: 12px;
+flex-direction: column;
+padding-top: 52px;
+width: 100%;
+height: 705px;
+}
+
+.galerie4 {
+ height: 401px;
+width: 283px;
+
+
+}
+
+.galerie3 {
+ height: 220px;
+width: 283px;
+
+} 
+

@@ -1,0 +1,165 @@
+/******************************************************************************************************************
+
+                                            dbt_NAVIGATION
+
+
+*******************************************************************************************************************/
+/* la taille du logo et couleur du logo */
+.logo {
+font-size: 40px;
+padding: 40px;
+color: #fff;
+}
+/* couleur de la balise span */
+.logo span {
+color: #d882fa;
+}
+
+/* la barre de navigation */
+.navigation {
+position: relative;
+background-color: transparent;
+}
+/* checkbox*/
+.navigation__checkbox {
+display: none;
+}
+/* button du menu en arriere-plan */
+.navigation__button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: fixed;
+  top: 40px ;
+  right: 40px;
+  z-index: 2000;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.navigation__background {
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: radial-gradient(#5e0094, #003494);
+  position: fixed;
+  top: 45px;
+  right: 45px;
+  z-index: 1000;
+  transition: all 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+/* les liens de navigation permet de cacher les liens */
+.navigation__nav {
+
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1500;
+opacity: 0;
+visibility: hidden;
+width: 0;
+ transition: all 0.8s cubic-bezier(0.68, -0.55, 0.256, 1.55);
+
+}
+
+.navigation__list {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+list-style: none;
+text-align: center;
+width: 100%;
+}
+.navigation__link {
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+.navigation__link:hover {
+  color: #a275f7;
+  transform: translateX(10px);
+}
+.navigation__checkbox:checked ~ .navigation__background {
+transform: scale(1.6);
+transform: scale(30);
+
+}
+.navigation__checkbox:checked ~ .navigation__nav {
+opacity: 1;
+visibility: visible;
+width: 100%;
+}
+/* l'icon du menu pour positionner*/
+.navigation__icon {
+position: relative;
+margin-top: 35px;
+}
+/* personnalisation de l'icon*/
+.navigation__icon,
+.navigation__icon::before,
+.navigation__icon::after {
+width: 40px;
+height: 3px;
+background-color: #ad88f1;
+display: inline-block;
+
+}
+.navigation__icon::before,
+.navigation__icon::after {
+content: "";
+position: absolute;
+left: 0;
+transition: all 0.2s;
+}
+/* icon du trait mettre en haut   */
+.navigation__icon::before {
+top: -10px;
+}
+/* icon du trait mettre en bas   */
+.navigation__icon::after {
+top: 10px;
+}
+
+/* hover */
+
+.navigation__button:hover .navigation__icon::before {
+ top: -12px;
+}
+.navigation__button:hover .navigation__icon::after {
+ top: 12px;
+}
+
+/* de mettre le trait du milieu du icon de le rendre transparent */
+ .navigation__checkbox:checked + .navigation__button .navigation__icon {
+  background: transparent;
+} 
+/* permet de rendre l'icon du haut a une rotation vers 135°  */
+.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+  top: 0;
+  transform: rotate(135deg);
+}
+/* permet de rendre l'icon du bas a une rotation vers -135°  */
+.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+  top: 0;
+  transform: rotate(-135deg);
+}
+
+/******************************************************************************************************************
+
+                                            fin_NAVIGATION
+
+
+*******************************************************************************************************************/
+
+
