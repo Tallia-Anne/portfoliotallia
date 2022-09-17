@@ -11,6 +11,10 @@
     z-index: 12
 }
 
+
+
+
+
 .conmodal{
 background-color: #fff;
 display: grid;
@@ -50,6 +54,8 @@ flex-direction: column;
 
 .conmodal .modal-text .modaltitle {
 padding-bottom: 21px;
+font-family: IM Fell Great Primer SC,serif;
+text-transform: uppercase;
 }
 
 .conmodal .descr{
@@ -139,6 +145,8 @@ width: 90%;
 
 .conmodal .modal-text .modaltitle {
 padding-bottom: 21px;
+font-family: IM Fell Great Primer SC,serif;
+text-transform: uppercase;
 }
 
 .conmodal .modal-text .modaltsuvitle ul {
@@ -232,6 +240,8 @@ width: 90%;
 
 .conmodal .modal-text .modaltitle {
 padding-bottom: 21px;
+font-family: IM Fell Great Primer SC,serif;
+text-transform: uppercase;
 }
 
 .conmodal .modal-text .modaltsuvitle ul {

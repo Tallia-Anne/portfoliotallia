@@ -79,7 +79,7 @@ height: 1520px;
 }
 
 .cardskill:hover .percent .number h2 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 60px;
 }
 
@@ -105,7 +105,7 @@ height: 1520px;
 }
 
 .cardskill:hover .text {
-  color: #fff;
+  color: #5c024a;
 }
 
 svg {

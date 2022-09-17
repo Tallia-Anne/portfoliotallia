@@ -12,6 +12,9 @@ box-sizing: border-box;
   --main-padding: 5px;
 }
 
+body {
+ font-family: 'Playfair Display', serif;
+}
 
 
 .Contportfolio {

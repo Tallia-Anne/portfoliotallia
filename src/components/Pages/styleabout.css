@@ -27,6 +27,7 @@ body {
     "container container container container"
     "containertimeline containertimeline containertimeline containertimeline"
     "sectQualite sectQualite sectQualite sectQualite"
+    "scroll-to-top scroll-to-top scroll-to-top scroll-to-top"
     "footer footer footer footer";
   font-size: 12px;
   text-align: center;
@@ -53,6 +54,10 @@ grid-area: container;
 
 .containertimeline {
 grid-area: containertimeline;
+}
+
+.scroll-to-top {
+grid-area: scroll-to-top;
 }
 
 
@@ -88,6 +93,7 @@ a {
     "container"
     "containertimeline"
     "secQualite"
+    "scroll-to-top"
     "footer";
   }
 

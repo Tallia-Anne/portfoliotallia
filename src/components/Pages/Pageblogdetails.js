@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import projetdata from '../../assets/projets';
+import Scrolltotop from "../Scrolltotop";
 import './blogdetail.css'
 // import Commentaire from '../Commentaire';
 
@@ -64,7 +65,7 @@ const Blogdetails = () => {
                             </div>
                         </div>
                     </section>
-                   
+                   <Scrolltotop/>
                 </>
             ) : (
                 "no"

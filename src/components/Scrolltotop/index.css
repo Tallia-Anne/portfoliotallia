@@ -1,0 +1,18 @@
+.scroll-to-top {
+width: 50px;
+height: 50px;
+background-color: rgb(0, 0, 0);
+box-shadow: 0px 0px 10px rgb(0 0 0 / 16%);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: flex-end;
+margin-left: auto;
+}
+
+.scroll-to-top .arrow {
+width: 20px;
+height: 20px;
+transform: rotate(181deg);
+}

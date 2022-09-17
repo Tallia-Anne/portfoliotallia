@@ -6,6 +6,7 @@ import Sectaboutpresentation from '../Sectaboutpresentation';
 import Skill from '../Skill'
 import Parcours from '../Parcours';
 import SectQualite from '../SectQualite';
+import Scrolltotop from '../Scrolltotop';
 import Footer from '../Footer';
 const About = () => {
     return (
@@ -16,7 +17,8 @@ const About = () => {
             <Sectaboutpresentation />
             <Skill/>
             <Parcours/>
-            <SectQualite/>
+            <SectQualite />
+            <Scrolltotop/>
             <Footer/>
         </div>
 

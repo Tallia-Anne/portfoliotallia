@@ -7,6 +7,7 @@ import Sectionhomeparallaxe from '../Sectionhomeparallaxe';
 import Designsec from '../Designsec';
 // import Filterprojet from '../Filterprojet'
 import Contact from '../Contact';
+import Scrolltotop from '../Scrolltotop';
 import Footer from '../Footer';
 
 
@@ -26,6 +27,7 @@ const Home = () => {
             <Designsec />
             {/* <Filterprojet/>  */}
             <Contact />
+            <Scrolltotop/>
             <Footer/>
         </div>
         

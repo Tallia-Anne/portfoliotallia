@@ -25,7 +25,7 @@ const Modal = (props) => {
                        
                     </div>
                     <div className="descr">
-                        <p>Categorie: {props.projet.category}</p>
+                        <p className="categorie">Categorie: {props.projet.category}</p>
                         <p>{props.projet.description}</p>
                     </div>
                     <div className="liens">
