@@ -14,6 +14,7 @@ const Card = (props) => {
                 className="background-image"
                 style={{ backgroundImage: `url(${background})` }}
             />
+            
             <div className="card-content">
                 
                 <p className="card-text">{text}</p>

@@ -14,7 +14,9 @@ padding: 40px;
 .containertimeline h1 {
 padding-bottom: 25px;
 color: #fff;
-font-size: 25px;
+font-size: 28px;
+font-family: IM Fell Great Primer SC,serif;
+text-transform: uppercase;
 }
 
 .timeline{

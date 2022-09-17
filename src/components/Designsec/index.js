@@ -1,16 +1,17 @@
 import './index.css';
 import Card from '../Card'
 
-const imageA = 'https://images.pexels.com/photos/12304077/pexels-photo-12304077.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load';
-const imageL = 'https://images.pexels.com/photos/12217000/pexels-photo-12217000.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load';
-const imageO = 'https://images.pexels.com/photos/5741970/pexels-photo-5741970.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load';
-const imageE = 'https://images.pexels.com/photos/13476143/pexels-photo-13476143.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load';
+import imageA from '../../assets/mockup.jpg';
+import imageL from '../../assets/myessentialsbg.JPG';
+import imageO from '../../assets/c61e94119064397.6095907157344.jpg';
+import imageE from '../../assets/285e0c127604347.Y3JvcCw5MjIsNzIxLDAsMTg.webp';
 
 const cards = [
     
     {
         letter: 'DE',
         background: imageA,
+        
     },
     {
         letter: 'S',
