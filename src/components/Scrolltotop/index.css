@@ -9,6 +9,7 @@ justify-content: center;
 align-items: center;
 align-content: flex-end;
 margin-left: auto;
+cursor: pointer;
 }
 
 .scroll-to-top .arrow {
