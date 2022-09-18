@@ -3,7 +3,7 @@ import './index.css'
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
-const icone2 = "https://img.icons8.com/pastel-glyph/64/000000/browser-windows--v1.png";
+
 
 
 const Modal = (props) => {

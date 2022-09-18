@@ -89,7 +89,7 @@ height: 20px;
 
 .liens {
 display: flex;
-align-items: start;
+align-items: flex-start;
 }
 
 .liens .bg-icone {
