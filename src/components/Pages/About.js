@@ -3,7 +3,7 @@ import './styleabout.css'
 import Heroabout from '../Heroabout';
 import Sectintroabout from '../Sectintroabout';
 import Sectaboutpresentation from '../Sectaboutpresentation';
-import Skill from '../Skill'
+ import Skill from '../Skill'
 import Parcours from '../Parcours';
 import SectQualite from '../SectQualite';
 import Scrolltotop from '../Scrolltotop';
@@ -15,7 +15,7 @@ const About = () => {
             <Heroabout />
             <Sectintroabout />
             <Sectaboutpresentation />
-            <Skill/>
+             <Skill/> 
             <Parcours/>
             <SectQualite />
             <Scrolltotop/>

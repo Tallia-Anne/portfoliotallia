@@ -127,21 +127,28 @@ a {
       "scroll-to-top"
       "footer";
   }
-.sectintrogalerie2 {
-visibility: hidden;
-}
+
 
 .main-app {
 grid-template-columns: 1fr;
 }
 
 .sectiongalerie2 {  
-  width: 100%;
+  display: none!important;
 }
-.sectintrogalerie2 .galeri3 {
-width: 100%;
-height: 400px;
+
+.galerie1 {
+    height: 432px!important;
+    width: 100%!important;
+    padding-top: 30px;
 }
+
+.galerie2 {
+    height: 200px!important;
+    width: 100%!important;
+    
+}
+
 
 .sectintrogalerie2  .galeri3 img {
 background-size: cover;

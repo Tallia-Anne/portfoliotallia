@@ -152,7 +152,7 @@ color: #fff;
 }
 
 .conmodal{
-background: linear-gradient(91deg, rgba(7, 58, 187, 1) 22%, rgba(255, 255, 255, 1) 21%);
+
 display: grid;
 grid-template-columns: 1fr 1fr;
 margin: 0 auto;
@@ -210,15 +210,7 @@ width: 20px;
 height: 20px;
 }
 
-button {
 
-background-color: #073abb;
-padding: 12px 22px;
-color: white;
-border-radius: 7px;
-border: none;
-
-}
 
 @keyframes appear {
     from {
@@ -248,7 +240,7 @@ border: none;
 }
 
 .conmodal{
-background: linear-gradient(91deg, rgba(7, 58, 187, 1) 22%, rgba(255, 255, 255, 1) 21%);
+
 display: grid;
 grid-template-columns: 1fr ;
 margin: 0 auto;
@@ -298,22 +290,9 @@ padding-bottom: 21px;
 padding-bottom: 12px;
 }
 
-.etat {
-background-color: green;
-border-radius: 50%;
-width: 20px;
-height: 20px;
-}
 
-button {
 
-background-color: #073abb;
-padding: 12px 22px;
-color: white;
-border-radius: 7px;
-border: none;
 
-}
 
 @keyframes appear {
     from {

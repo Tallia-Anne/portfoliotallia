@@ -81,10 +81,11 @@ height: 100%;
 @media only screen and (max-width: 480px) {
 
 .sectQualite {
-display: grid;
+display: none;
 grid-template-columns: 1fr;
 background-color: rgb(255, 255, 255);
 height: 1700px;
+width: 100%;
 }
 
 .sectQualiteimage {
@@ -93,6 +94,15 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 height: 800px;
+width: 100%;
+}
+.titlequalite {
+position: absolute;
+    top: 42%;
+    transform: rotate(90deg);
+    font-size: 32px;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 }
