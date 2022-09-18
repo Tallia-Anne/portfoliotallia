@@ -3,7 +3,7 @@ import './index.css'
 
 import imagetallia from '../../assets/Screenshot_20220908-141035_Snapchat.jpg'
 
-import Cv from '../../assets/TalliaCV.pdf'
+import Cv from '../../assets/CVtalliaAnne.pdf'
 
 const Sectaboutpresentation = () => {
     
