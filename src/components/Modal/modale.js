@@ -29,9 +29,9 @@ const Modal = (props) => {
                         <p>{props.projet.description}</p>
                     </div>
                     <div className="liens">
-                        <a href={props.projet.lien1}><FontAwesomeIcon icon={faGithub} /></a>
-                        <img src={icone2}  alt=""/>
-                        <a href={props.projet.lien2}>internet</a> 
+                        <a href={props.projet.lien1} className="bg-icone" ><FontAwesomeIcon icon={faGithub} /></a>
+                        <a href={props.projet.lien2} className="bg-icone" ><i class="gg-website"></i></a>
+                       
                     </div>
                     
                     <Link to={`/pageblogdetails/${props.projet.id}`} ><button>En savoir plus</button></Link> 

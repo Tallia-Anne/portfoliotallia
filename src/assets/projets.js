@@ -118,9 +118,37 @@ const projets = [
         image: require('../assets/c61e94119064397.6095907157344.jpg'),
         category: 'Design',
         description: 'Le logo pour une influence sur instagramme  ',
-        lien1: 'https://myessentialsblog.fr/',
+         lien1: 'https://www.behance.net/gallery/119064397/Projet-de-digital',
         lien2: ''
+    },
+    {
+        id: 13,
+        title: 'Dyslogie',
+        image: require('../assets/dyslogieweb.JPG'),
+        category: 'SiteWeb',
+        description: 'Ce site va permet de trouver des sites ou logiciels pour aider les personnes qui souffrent d’un trouble apprentissage facilité au travail et à lécole. Et prendre du plaisir pour d’apprendre les cours ou la lecture. À progresser au niveau des études. Et de prendre facilement les prises de notes.Cela permet daider aux parents de montrer à leur enfants de travailler ensemble',
+        lien1: 'dyslogiereact.vercel.app',
+        lien2: 'https://github.com/Tallia-Anne/Dyslogiereact',
+    },
+    {
+        id: 14,
+        title: 'Jeuxhtml',
+        image: require('../assets/jeuxhtml.JPG'),
+        category: 'SiteWeb',
+        description: 'un jeux',
+        lien1: 'https://tallia-anne.github.io/jeuxhtml/',
+        lien2: 'https://github.com/Tallia-Anne/jeuxhtml',
+    },
+    {
+        id: 14,
+        title: 'Calculatrice',
+        image: require('../assets/calculatrice.JPG'),
+        category: 'SiteWeb',
+        description: 'est une calculatrice avec le language javascript, HTML et CSS ',
+        lien1: 'https://tallia-anne.github.io/Calculatrice/calculatrice.html',
+        lien2: 'https://github.com/Tallia-Anne/Calculatrice',
     }
+    
 ]
 
 export default projets
