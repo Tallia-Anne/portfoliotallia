@@ -74,7 +74,8 @@ const projets = [
         category: 'SiteWeb',
         description: 'Le projet est un siteweb qui est un site gestion de donnée et un blog. Ce blog qui donne des conseils beauté sur les cheveux et les soins de la peau. De plus de frabriquer des produits cosmétiques.',
         lien1: 'https://harrypottertallia.netlify.app/',
-        lien2: ''
+        lien2: '',
+        video: require('../assets/video/harrypotter.webm'),
     },
     {
         id: 9,
@@ -140,13 +141,31 @@ const projets = [
         lien2: 'https://github.com/Tallia-Anne/jeuxhtml',
     },
     {
-        id: 14,
+        id: 15,
         title: 'Calculatrice',
         image: require('../assets/calculatrice.JPG'),
         category: 'SiteWeb',
         description: 'est une calculatrice avec le language javascript, HTML et CSS ',
         lien1: 'https://tallia-anne.github.io/Calculatrice/calculatrice.html',
         lien2: 'https://github.com/Tallia-Anne/Calculatrice',
+    }, 
+    {
+        id: 16,
+        title: 'Deviner le numéro magique',
+        image: require('../assets/numeromagice.JPG'),
+        category: 'SiteWeb',
+        description: 'Le projet avec le javascript. Il consiste a deviner le numéro magique et a le trouver',
+        lien1: 'https://tallia-anne.github.io/nombremagic/nombremagic.html',
+        lien2: 'https://github.com/Tallia-Anne/nombremagic',
+    },
+        {
+        id: 17,
+        title: 'Card',
+        image: require('../assets/Card.JPG'),
+        category: 'SiteWeb',
+        description: 'Le projet sont des cards' ,
+        lien1: 'https://tallia-anne.github.io/cardtallia/card',
+            lien2: 'https://github.com/Tallia-Anne/cardtallia',
     }
     
 ]
