@@ -10,7 +10,8 @@ import Portfolio from "./components/Pages/Portfolio";
 import Header from "./components/Header";
 import Test from "./components/Pages/Test";
 // import ThemeContextProvider from "./Context/ThemeContext"
-import Pageblogdetails  from "./components/Pages/Pageblogdetails"
+import Pageblogdetails from "./components/Pages/Pageblogdetails";
+import Erreur from "./components/Pages/Erreur";
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="pageblogdetails/:id" element={<Pageblogdetails />} exact />
-        <Route path="test" element={<Test/>} />
+        <Route path="test" element={<Test />} />
+        <Route path="*" element={<Erreur />} />
 
       </Routes>
       

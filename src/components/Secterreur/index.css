@@ -1,0 +1,37 @@
+.Erreur {
+    margin-top: -167px;
+
+}
+
+.bg-404 {
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 575px;
+width: 100%;
+ display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+.bg-404 h1 {
+ font-size: 100px;
+    font-weight: 600;
+padding-bottom: 12px;
+background: linear-gradient(to right, #f64fa0, #c471ed, #12c2e9);
+background-clip: text;
+color: transparent;
+margin-left: 38px;
+}
+
+.bg-404 .buttonerreur {
+     padding: 21px 75px;
+    background-color: transparent;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+}
