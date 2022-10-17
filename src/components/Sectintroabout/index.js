@@ -11,8 +11,8 @@ const Sectintroabout = () => {
                <p className='who' >Qui je suis</p> 
             </div>
             <div className="sectabout-text">
-                <p className='textp' >
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro commodi cumque est odit tempora unde aliquam omnis? Enim, officia. Facilis corporis possimus molestias. Reprehenderit ea illo inventore perspiciatis, fugiat in! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, accusamus. Consequatur provident sed perferendis. Necessitatibus eius, quam itaque vel molestias quae voluptate est, debitis veritatis veniam sunt? Consequuntur, in corrupti.</p>
+                <p className='textp' >Je suis une personne avec une devise: "la créativité c'est l'intelligence qui s'amuse" qui représente ma personnalité.  Je vous invite à y découvrir mes projets dont les sites web, les projets design.
+                </p>
             </div>
             
             
