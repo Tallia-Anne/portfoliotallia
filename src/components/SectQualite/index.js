@@ -30,7 +30,7 @@ const SectQualite = () => {
                         <li>Timide en raison de mon handicap mais
                             je suis pris de la confiance en moi.
                             J'aime d'abord observer les personnes pour me rassurer  </li>
-                        <li>lorem</li>
+                        
                         
                     </ul>
                 </div>
