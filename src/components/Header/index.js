@@ -10,7 +10,7 @@ const Header = () => {
         <>
             
             <header className='navigation'>
-                <Link to="/" > <h1 class="logo">Light<span>Code.</span></h1></Link> 
+                <Link to="/" > <h1 class="logo">Tallia<span>-Anne</span></h1></Link> 
 
                 <input type="checkbox" class="navigation__checkbox" id="toggle"/>
                     <label for="toggle" class="navigation__button">
