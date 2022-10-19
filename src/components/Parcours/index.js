@@ -17,7 +17,7 @@ const Parcours = () => {
                         <div class="content">
                             <h3>Concepteur développeur front-end</h3>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                               Projet fin d'etude sur React.js
                             </p>
                         </div>
                     </li>
@@ -26,7 +26,7 @@ const Parcours = () => {
                         <div class="content">
                             <h3>Certificat de développeur web et web mobile à Digical school France</h3>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                              Etude final : 2 projets 
                             </p>
                         </div>
                     </li>
@@ -35,7 +35,7 @@ const Parcours = () => {
                         <div class="content">
                             <h3>Ecole de la deuxième chance (E2C95)</h3>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Elaboration de projet professionnel
                             </p>
                         </div>
                     </li>
@@ -44,7 +44,7 @@ const Parcours = () => {
                         <div class="content">
                             <h3>Lycée Afred Kastler</h3>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                              Niveau Baccalauréat Terminal S
                             </p>
                         </div>
                     </li>
@@ -53,7 +53,7 @@ const Parcours = () => {
                         <div class="content">
                             <h3>Collége de la justice</h3>
                             <p>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                               Diplôme: Brevet Mention Bien
                             </p>
                         </div>
                     </li>
