@@ -1,5 +1,5 @@
 import './index.css'
-
+// dbt les compétences
 const HTML = "https://cdn-icons-png.flaticon.com/128/2085/2085206.png";
 const Javascript = "https://cdn-icons-png.flaticon.com/512/5968/5968292.png";
 const Bootstrap = "https://cdn-icons-png.flaticon.com/512/5968/5968672.png";
@@ -13,6 +13,7 @@ const Mysql = 'https://cdn-icons-png.flaticon.com/128/274/274439.png';
 const Git = 'https://cdn-icons-png.flaticon.com/128/4926/4926624.png';
 const SQL = 'https://cdn-icons-png.flaticon.com/128/5815/5815809.png';
 
+//fin des compétences
 
 
 

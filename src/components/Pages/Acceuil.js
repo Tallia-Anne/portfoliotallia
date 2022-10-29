@@ -1,4 +1,7 @@
+//css
 import './style.css';
+
+// Les sections
 import Hero from '../Hero';
 import Sectintro from '../SecIntro';
 import Sectintrogalerie1 from '../Sectintogalerie1';
@@ -9,7 +12,7 @@ import Designsec from '../Designsec';
 import Contact from '../Contact';
 import Scrolltotop from '../Scrolltotop';
 import Footer from '../Footer';
-
+ // fin les sections
 
 const Home = () => {
 
@@ -19,7 +22,6 @@ const Home = () => {
         
         <div className="Home" >
             <Hero />
-         
             <Sectintro />
             <Sectintrogalerie1/>
             <Sectintrogalerie2 />

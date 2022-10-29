@@ -1,5 +1,8 @@
 
+//CSS-about
 import './styleabout.css'
+
+// dbt les sections 
 import Heroabout from '../Heroabout';
 import Sectintroabout from '../Sectintroabout';
 import Sectaboutpresentation from '../Sectaboutpresentation';
@@ -8,6 +11,9 @@ import Parcours from '../Parcours';
 import SectQualite from '../SectQualite';
 import Scrolltotop from '../Scrolltotop';
 import Footer from '../Footer';
+
+// fin les sections
+
 const About = () => {
     return (
 

@@ -5,17 +5,19 @@
 
 *******************************************************************************************************************/
 
-
+/*bg est le fond bland et arrondie*/
 .bglogo {
-    width: 105px;
-    height: 105px;
-    background-color: #ffff;
+    align-items: center;
+    background-color: #fff;
     border-radius: 50%;
     display: flex;
+    height: 120px;
     justify-content: center;
-    align-items: center;
     position: relative;
+    width: 120px;
+    box-shadow: 0px 0px 1px 0px #0000007d;
 }
+/*survoler la sourire qui donnera un fond transparent*/
 .bglogo:hover {
 background-color: #ffffff7d;
 }
@@ -63,7 +65,7 @@ display: none;
   cursor: pointer;
   transition: all 0.2s;
 }
-
+/* fond du barre de navigation */
 .navigation__background {
 
   width: 60px;
@@ -79,7 +81,6 @@ display: none;
 
 /* les liens de navigation permet de cacher les liens */
 .navigation__nav {
-
 height: 100vh;
 position: fixed;
 top: 0;
@@ -89,9 +90,9 @@ opacity: 0;
 visibility: hidden;
 width: 0;
  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.256, 1.55);
-
 }
 
+/* la positionnement des liens*/
 .navigation__list {
 position: absolute;
 top: 50%;
@@ -101,6 +102,8 @@ list-style: none;
 text-align: center;
 width: 100%;
 }
+
+/*le format des liens: la disposition, la taille, la couleur*/
 .navigation__link {
   display: inline-block;
   font-size: 20px;
@@ -110,6 +113,8 @@ width: 100%;
   text-decoration: none;
   transition: all 0.4s;
 }
+
+/* survoler les lien qui donner une couleur donnée et qui va  decaler vers la droite de 10px*/
 .navigation__link:hover {
   color: #a275f7;
   transform: translateX(10px);
