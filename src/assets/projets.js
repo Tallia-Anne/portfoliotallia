@@ -179,6 +179,15 @@ const projets = [
         description: 'Le projet sont des cards' ,
         lien1: 'https://tallia-anne.github.io/cardtallia/card',
             lien2: 'https://github.com/Tallia-Anne/cardtallia',
+    },
+         {
+        id: 18,
+        title: 'Carte de viste de Tallia',
+        image: require('../assets/cartevisitetallia.jpg'),
+        category: 'Design',
+        description: 'Voici ma carte de visite ',
+        lien1: '',
+        lien2: '',
     }
     
 ]

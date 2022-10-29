@@ -2,6 +2,7 @@ import './index.css'
 import React from 'react';
 import { Link } from "react-router-dom";
 
+import logotallia from "../../assets/Logotype_Boutique_Fashion_Neon_Logomark_logo__2_-removebg-preview.png";
 
 const Header = () => {
    
@@ -10,15 +11,17 @@ const Header = () => {
         <>
             
             <header className='navigation'>
-                <Link to="/" > <h1 class="logo">Tallia<span>-Anne</span></h1></Link> 
+                <Link to="/" > <div className="bglogo">
+                    <div className="logotallia" style={{ backgroundImage: `url(${logotallia})` }}  ></div>
+                </div>  </Link> 
 
-                <input type="checkbox" class="navigation__checkbox" id="toggle"/>
-                    <label for="toggle" class="navigation__button">
-                        <span class="navigation__icon">&nbsp;</span>
+                <input type="checkbox" className="navigation__checkbox" id="toggle"/>
+                    <label for="toggle" className="navigation__button">
+                        <span className="navigation__icon">&nbsp;</span>
                     </label>
 
-                    <div class="navigation__background">&nbsp;</div>
-                <nav class="navigation__nav" >
+                    <div className="navigation__background">&nbsp;</div>
+                <nav className="navigation__nav" >
                     
                     <ul className="navigation__list" >
                         <li><Link to="/" className='navigation__link' >  Acceuil </Link>  </li>

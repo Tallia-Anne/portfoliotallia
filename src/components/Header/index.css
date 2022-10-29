@@ -4,11 +4,32 @@
 
 
 *******************************************************************************************************************/
+
+
+.bglogo {
+    width: 105px;
+    height: 105px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bglogo:hover {
+background-color: #ffffff7d;
+}
+
 /* la taille du logo et couleur du logo */
-.logo {
-font-size: 40px;
-padding: 40px;
-color: #fff;
+.logotallia {
+    width: 100%;
+    height: 100%;
+    background-image: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: -11%;
 }
 /* couleur de la balise span */
 .logo span {
@@ -19,6 +40,9 @@ color: #d882fa;
 .navigation {
 position: relative;
 background-color: transparent;
+ display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* checkbox*/
 .navigation__checkbox {
