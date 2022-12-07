@@ -4,20 +4,20 @@ import contactimage from '../../assets/online-web-design.jpg';
  import React, { useState } from 'react';
 
 const Contact = () => {
-     const [sujet, setName] = useState('');
+     const [nom, setName] = useState('');
      const [email, setEmail] = useState('');
      const [message, setMessage] = useState('');
     
 
      const submitRequest = async (e) => {
          e.preventDefault();
-        console.log({ sujet, email, message });
+        console.log({ nom, email, message });
          const response = await fetch("http://localhost:3000/contact/sendcontact", {
              method: 'POST',
              headers: {
                  'Content-type': 'application/json'
              },
-             body: JSON.stringify({  sujet, email, message })
+             body: JSON.stringify({  nom, email, message })
          });
          const resData = await response.json();
          if (resData.status === 'success') {
@@ -40,9 +40,9 @@ const Contact = () => {
                     <h1>Contacter-moi</h1>
                     
                     <div className="input-form">
-                        <input type="sujet" id="sujet" name="sujet" placeholder="ton sujet" className='inform'
+                        <input type="nom" id="nom" name="nom" placeholder="ton nom" className='inform'
                              onChange={e => setName(e.target.value)}
-                             value={sujet}
+                             value={nom}
                         />
                     </div>
                     <div className="input-form">
