@@ -13,6 +13,15 @@ const Parcours = () => {
             <div class="timeline"  >
                 <ul>
                     <li>
+                        <span> Février - Septembre  2023</span>
+                        <div class="content">
+                            <h3>Concepteur développeur D'application GRPG Formation </h3>
+                            <p>
+                                Projet fin d'etude sur Site Web et sur une application
+                            </p>
+                        </div>
+                    </li>
+                    <li>
                         <span>Mai 2022</span>
                         <div class="content">
                             <h3>Concepteur développeur front-end</h3>
