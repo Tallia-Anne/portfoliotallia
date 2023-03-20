@@ -1,4 +1,4 @@
-import './index.css';
+//import './index.css';
 import Aos from 'aos';
 import { useState } from 'react';
 import 'aos/dist/aos.css';
