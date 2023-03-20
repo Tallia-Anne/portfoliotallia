@@ -34,7 +34,7 @@ const Modal = (props) => {
                        
                     </div>
                     
-                    {/* <Link to={`/pageblogdetails/${props.projet.id}`} ><button>En savoir plus</button></Link>  */}
+                  
                     
                 </div>
                 <div className='modal-img'>
