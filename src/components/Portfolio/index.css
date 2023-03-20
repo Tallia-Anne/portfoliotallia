@@ -33,4 +33,15 @@ box-shadow: 0px -1px 5px 0px #787878bf;
     flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 480px) {
+.projets .cardprojet {
+width: 302px;
+height: 310px;
+padding: 12px;
+margin-bottom: 20px;
+cursor: pointer;
+}
+
+}
+
    
