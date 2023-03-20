@@ -192,7 +192,7 @@ const projets = [
     , {
         id: 19,
         title: 'Initiative243',
-        image: require('../assets/cartevisitetallia.jpg'),
+        image: require('../assets/initiativesphoto.jpg'),
         category: 'SiteWeb',
         description: 'Initiative 243 est une association internationale fondée en France selon la loi 1901 et dont l’objectif est de fédérer des compétences internationales dans la promotion et la réalisation, en France et en République Démocratique du Congo, des projets éducatifs, culturels et socio-économiques durables. ',
         lien1: 'https://initiative243.org/',
