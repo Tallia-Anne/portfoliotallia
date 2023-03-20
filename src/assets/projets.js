@@ -225,7 +225,16 @@ const projets = [
         lien1: 'https://btpprojet03.vercel.app/',
         lien2: '',
     }
-    
+    , {
+        id: 22,
+        title: 'changer-le-fond',
+        image: require('../assets/fond.JPG'),
+        category: 'SiteWeb',
+        description: 'Mini projet en javascript qui consiste de changer le fond',
+        lien1: 'https://changer-le-fond-js.vercel.app/',
+        lien2: '',
+    }
+
     
 ]
 
