@@ -198,12 +198,31 @@ const projets = [
         lien1: 'https://initiative243.org/',
         lien2: '',
     }, {
-        id: 19,
+        id: 20,
+        title: 'Quiz anime',
+        image: require('../assets/manga.JPG'),
+        category: 'SiteWeb',
+        description: 'Quiz sur les mangas ',
+        lien1: 'http://quizreact-gamma.vercel.app/',
+        lien2: '',
+    },
+
+{
+        id: 21,
         title: 'Legal Team Management',
         image: require('../assets/legalteam.JPG'),
         category: 'SiteWeb',
         description: 'LTM vous accompagne dans votre projet d’entreprise, de l’idée de création jusqu’à la réalisation des formalités nécessaires pour mettre en place votre structure. Quelle que soit la forme juridique envisagée, vous bénéficiez d’un accompagnement personnalisé et adapté à votre projet de création. ',
         lien1: 'http://www.legalteam-management.fr/index.php/about-us/',
+        lien2: '',
+    }
+    , {
+        id: 22,
+        title: 'SakuraFlower',
+        image: require('../assets/sakuraflower.JPG'),
+        category: 'SiteWeb',
+        description: 'Le site web est entierement faire en Boostrap',
+        lien1: 'https://btpprojet03.vercel.app/',
         lien2: '',
     }
     
