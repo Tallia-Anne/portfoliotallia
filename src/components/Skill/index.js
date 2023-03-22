@@ -12,6 +12,7 @@ const Photo = 'https://cdn-icons-png.flaticon.com/512/5210/5210800.png';
 const Mysql = 'https://cdn-icons-png.flaticon.com/128/274/274439.png';
 const Git = 'https://cdn-icons-png.flaticon.com/128/4926/4926624.png';
 const SQL = 'https://cdn-icons-png.flaticon.com/128/5815/5815809.png';
+const PHP = 'https://cdn-icons-png.flaticon.com/512/919/919830.png';
 
 //fin des compétences
 
@@ -28,76 +29,83 @@ const Skill = () => {
                 
             <div className="cardskill">
                 <div class="box">
-                        <img src={HTML} alt="" />
+                        <img src={HTML} alt="icon" />
                         <h2 className="text">HTML/CSS</h2>
                 </div>
             </div>
             <div className="cardskill">
                 <div className="box">
-                        <img src={Javascript} alt="" />
+                        <img src={Javascript} alt="icon" />
                     <h2 className="text">Javascript</h2>
                 </div>
             </div>
             <div className="cardskill">
                     <div className="box">
-                        <img src={Bootstrap} alt="" />
+                        <img src={Bootstrap} alt="icon" />
                         <h2 className="text">Bootstrap</h2>
                     </div>
             </div>
             <div className="cardskill">
                 <div class="box">
-                        <img src={Wordpress} alt="" />
+                        <img src={Wordpress} alt="icon" />
                         <h2 className="text">Wordpress</h2>
                 </div>
             </div>
             <div className="cardskill">
                 <div class="box">
-                        <img src={Node} alt="" />
+                        <img src={Node} alt="icon" />
                         <h2 className="text">Node.js</h2>
                 </div>
             </div>
             <div className="cardskill">
                 <div class="box">
-                        <img src={Vue} alt="" />
+                        <img src={Vue} alt="icon" />
                         <h2 className="text">Vue.js</h2>
                 </div>
             </div>
             <div className="cardskill">
                 <div class="box">
-                        <img src={React} alt="" />
+                        <img src={React} alt="icon" />
                         <h2 className="text">React.js</h2>
                 </div>
             </div>
             <div className="cardskill">
                 <div class="box">
-                        <img src={Figma} alt="" />
+                        <img src={Figma} alt="icon" />
                         <h2 className="text">Figma</h2>
                 </div>
             </div>
             <div className="cardskill">
                 <div class="box">
-                        <img src={Photo} alt="" />
+                        <img src={Photo} alt="icon" />
                         <h2 className="text">Photoshop</h2>
                 </div>
             </div>
             <div className="cardskill">
                 <div class="box">
-                        <img src={Mysql} alt="" />
+                        <img src={Mysql} alt="icon" />
                         <h2 className="text">Mysql</h2>
                 </div>
             </div>
             <div className="cardskill">
                 <div class="box">
-                        <img src={Git} alt="" />
+                        <img src={Git} alt="icon" />
                         <h2 className="text">Git</h2>
                 </div>
             </div>
             <div className="cardskill">
                 <div class="box">
-                        <img src={SQL} alt="" />
+                        <img src={SQL} alt="icon" />
                         <h2 className="text">SQL</h2>
                 </div>
                 </div>
+                <div className="cardskill">
+                    <div class="box">
+                        <img src={PHP} alt="icon" />
+                        <h2 className="text">PHP</h2>
+                    </div>
+                </div>
+                
             </div>
         </div>
         

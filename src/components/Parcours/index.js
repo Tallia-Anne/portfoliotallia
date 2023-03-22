@@ -19,6 +19,8 @@ const Parcours = () => {
                             <p>
                                 Projet fin d'etude sur Site Web et sur une application
                             </p>
+                            <p>Php, framework php, electron.js</p>
+                            
                         </div>
                     </li>
                     <li>
