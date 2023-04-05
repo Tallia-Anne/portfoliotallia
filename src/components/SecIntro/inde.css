@@ -39,3 +39,10 @@ background-color: transparent;
 border: 1px solid black;
 cursor: pointer;
 }
+
+button:hover {
+background-color: black;
+color: #fff;
+border: 1px solid black;
+cursor: pointer;
+}

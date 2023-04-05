@@ -12,6 +12,10 @@ margin-left: auto;
 cursor: pointer;
 }
 
+.scroll-to-top:hover {
+background-color: rgb(72, 48, 66);
+} 
+
 .scroll-to-top .arrow {
 width: 20px;
 height: 20px;

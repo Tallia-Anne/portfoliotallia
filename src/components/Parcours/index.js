@@ -17,7 +17,7 @@ const Parcours = () => {
                         <div class="content">
                             <h3>Concepteur développeur D'application GRPG Formation </h3>
                             <p>
-                                Projet fin d'etude sur Site Web et sur une application
+                                Projet fin d'etude sur Site Web et sur une application(bureau/mobile)
                             </p>
                             <p>Php, framework php, electron.js</p>
                             
@@ -30,6 +30,7 @@ const Parcours = () => {
                             <p>
                                Projet fin d'etude sur React.js
                             </p>
+                            <p>Certification Tosa DigComp </p>
                         </div>
                     </li>
                     <li>

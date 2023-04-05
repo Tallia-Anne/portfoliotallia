@@ -18,12 +18,12 @@ const Portfolio = () => {
     
     useEffect(() => {
         setData(projets);
-        setCollection([... new Set(projets.map((projet) => projet.category))])
+        setCollection([...new Set(projets.map((projet) => projet.category))])
     }, []) 
     
     
     const gallery_filter = (projetData) => {
-        const filterData = projets.filter((projet) => projet.category == projetData);
+        const filterData = projets.filter((projet) => projet.category === projetData);
         setData(filterData);
     }
     
