@@ -234,6 +234,24 @@ const projets = [
         lien1: 'https://changer-le-fond-js.vercel.app/',
         lien2: '',
     }
+            , {
+        id: 24,
+        title: 'Blog de podcast',
+        image: require('../assets/seo.JPG'),
+        category: 'SiteWeb',
+        description: 'Projet sur seo pour utiliser les bonnes balises HTML5 et CSS3 ',
+        lien1: 'https://seo-projet.vercel.app/',
+        lien2: 'https://github.com/Tallia-Anne/Seo_projet',
+    }
+    , {
+        id: 25,
+        title: 'Application mobile UI E-commerce',
+        image: require('../assets/14figmag2r.jpg'),
+        category: 'SiteWeb',
+        description: 'Ce projet était réaliser par le logiciel Figma permit de faire des maquettes  ',
+        lien1: 'https://www.behance.net/gallery/168339867/e-commerce',
+        lien2: '',
+    }
 
     
 ]
