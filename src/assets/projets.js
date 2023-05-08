@@ -247,9 +247,27 @@ const projets = [
         id: 25,
         title: 'Application mobile UI E-commerce',
         image: require('../assets/14figmag2r.jpg'),
-        category: 'SiteWeb',
+        category: 'Design',
         description: 'Ce projet était réaliser par le logiciel Figma permit de faire des maquettes  ',
         lien1: 'https://www.behance.net/gallery/168339867/e-commerce',
+        lien2: '',
+    }
+    , {
+        id: 26,
+        title: 'Application de Bureau de Trading',
+        image: require('../assets/14figmag2r.jpg'),
+        category: 'Application Bureau',
+        description: 'Ce projet est un application de bureau sur Electron.js  ',
+        lien1: '',
+        lien2: '',
+    },
+    {
+        id: 27,
+        title: 'Application de Bureau de Generateur de mot de passe',
+        image: require('../assets/14figmag2r.jpg'),
+        category: 'Application Bureau',
+        description: 'Ce projet est un application de bureau sur Electron.js  ',
+        lien1: '',
         lien2: '',
     }
 
