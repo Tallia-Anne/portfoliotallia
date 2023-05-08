@@ -270,7 +270,15 @@ const projets = [
         lien1: '',
         lien2: '',
     }
-
+      , {
+        id: 28,
+        title: 'Meteo',
+        image: require('../assets/meteo.JPG'),
+        category: 'SiteWeb',
+        description: "Projet sur la meteo d'une API ",
+        lien1: 'https://meteo-ecru-psi.vercel.app/',
+        lien2: 'https://github.com/Tallia-Anne/meteo',
+    }
     
 ]
 
