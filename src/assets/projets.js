@@ -29,7 +29,7 @@ const projets = [
         image: require('../assets/mockup.jpg'),
         category: 'Design',
         description: 'Le projet est un design UX réaliser par figma',
-        lien1: 'https://myessentialsblog.fr/',
+        lien1: 'https://www.behance.net/gallery/141731711/Youtube-premium',
         lien2: ''
     }, {
         id: 4,
@@ -37,9 +37,9 @@ const projets = [
         année: 2022,
         image: require('../assets/Mangomaquette_page-0001.jpg'),
         category: 'Design',
-        description: 'Le projet est un siteweb qui est un site e-commerce qui vend des produits pour les cheveux qui concerne tous les femmes. Qui permet de les aider à trouver tes bons produits',
-        lien1: 'https://afro-dream.fr/',
-        lien2: 'https://github.com/Tallia-Anne/dream'
+        description: 'Le projet est une Maquette sur Mango',
+        lien1: 'https://www.behance.net/gallery/141730757/Mango',
+        lien2: ''
     },
     {
         id: 5,
@@ -48,7 +48,7 @@ const projets = [
         image: require('../assets/strangerthings.jpg'),
         category: 'Design',
         description: 'Le projet est un siteweb qui est un site gestion de donnée et un blog. Ce blog qui donne des conseils beauté sur les cheveux et les soins de la peau. De plus de frabriquer des produits cosmétiques.',
-        lien1: 'https://myessentialsblog.fr/',
+        lien1: 'https://www.behance.net/gallery/145297433/Stranger-thing-App-maquettes',
         lien2: ''
     },
     {
@@ -58,7 +58,7 @@ const projets = [
         image: require('../assets/Floral Photo Fiançailles Faire-part Idées Blog Image (1).jpg'),
         category: 'Design',
         description: 'Le projet est un siteweb qui est un site gestion de donnée et un blog. Ce blog qui donne des conseils beauté sur les cheveux et les soins de la peau. De plus de frabriquer des produits cosmétiques.',
-        lien1: 'https://myessentialsblog.fr/',
+        lien1: 'https://www.behance.net/erinawambiekele',
         lien2: ''
     },
     
@@ -70,7 +70,7 @@ const projets = [
         image: require('../assets/Floral Photo Fiançailles Faire-part Idées Blog Image (8).jpg'),
         category: 'Design',
         description: 'Le projet est un siteweb qui est un site gestion de donnée et un blog. Ce blog qui donne des conseils beauté sur les cheveux et les soins de la peau. De plus de frabriquer des produits cosmétiques.',
-        lien1: 'https://myessentialsblog.fr/',
+        lien1: 'https://www.behance.net/erinawambiekele',
         lien2: ''
     },
     {
@@ -92,7 +92,7 @@ const projets = [
         image: require('../assets/Floral Photo Fiançailles Faire-part Idées Blog Image (9).jpg'),
         category: 'Design',
         description: 'Le projet est un siteweb qui est un site gestion de donnée et un blog. Ce blog qui donne des conseils beauté sur les cheveux et les soins de la peau. De plus de frabriquer des produits cosmétiques.',
-        lien1: 'https://myessentialsblog.fr/',
+        lien1: 'https://www.behance.net/erinawambiekele',
         lien2: ''
     },
     {
@@ -112,7 +112,7 @@ const projets = [
         image: require('../assets/mockupsoisverite.jpg'),
         category: 'Design',
         description: 'Le projet est un maquette sur un blog de cuisine ',
-        lien1: 'https://myessentialsblog.fr/',
+        lien1: 'https://www.behance.net/gallery/123329999/Sois-ta-propre-verit',
         lien2: ''
     },
     {
@@ -122,8 +122,8 @@ const projets = [
         image: require('../assets/logoholi.webp'),
         category: 'Design',
         description: 'Le logo pour une influence sur instagramme  ',
-        lien1: 'https://myessentialsblog.fr/',
-        lien2: 'https://img.icons8.com/pastel-glyph/64/000000/browser-windows--v1.png'
+        lien1: 'https://www.behance.net/gallery/137655791/holigreenCharlie-Logo',
+        lien2: ''
     },
      {
         id: 12,
@@ -186,7 +186,7 @@ const projets = [
         image: require('../assets/cartevisitetallia.jpg'),
         category: 'Design',
         description: 'Voici ma carte de visite ',
-        lien1: '',
+        lien1: 'https://www.behance.net/gallery/127604347/Serge-Thierry-international',
         lien2: '',
     }
     , {
