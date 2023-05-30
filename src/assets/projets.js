@@ -264,7 +264,7 @@ const projets = [
     {
         id: 27,
         title: 'Application de Bureau de Generateur de mot de passe',
-        image: require('../assets/14figmag2r.jpg'),
+        image: require('../assets/generateurmtp.JPG'),
         category: 'Application Bureau',
         description: 'Ce projet est un application de bureau sur Electron.js  ',
         lien1: '',
