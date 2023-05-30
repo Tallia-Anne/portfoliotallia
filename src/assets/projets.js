@@ -279,6 +279,15 @@ const projets = [
         lien1: 'https://meteo-ecru-psi.vercel.app/',
         lien2: 'https://github.com/Tallia-Anne/meteo',
     }
+    , {
+        id: 29,
+        title: 'Dé App',
+        image: require('../assets/gif/ezgif.com-video-to-gif.gif'),
+        category: 'Application mobile',
+        description: "Projet sur un jeu de dé avec le framework React native ",
+        lien1: '',
+        lien2: 'https://github.com/Tallia-Anne/Dice-roll',
+    }
     
 ]
 
