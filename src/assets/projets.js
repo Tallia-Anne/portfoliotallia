@@ -1,7 +1,7 @@
 const projet1 = "https://afro-dream.fr/img/header%20(1).03800f06.jpg"
 
 const projets = [
-    
+
     {
         id: 1,
         title: 'Afro-dream',
@@ -13,7 +13,7 @@ const projets = [
         lien2: 'https://github.com/Tallia-Anne/dream'
     },
     {
-        id:2,
+        id: 2,
         title: 'Myessentials',
         année: 2021,
         image: require('../assets/myessentialsbg.JPG'),
@@ -61,18 +61,8 @@ const projets = [
         lien1: 'https://www.behance.net/erinawambiekele',
         lien2: ''
     },
-    
-    {
-        
-        id: 7,
-        title: 'Poste sur pinterest2',
-        année: 2021,
-        image: require('../assets/Floral Photo Fiançailles Faire-part Idées Blog Image (8).jpg'),
-        category: 'Design',
-        description: 'Le projet est un siteweb qui est un site gestion de donnée et un blog. Ce blog qui donne des conseils beauté sur les cheveux et les soins de la peau. De plus de frabriquer des produits cosmétiques.',
-        lien1: 'https://www.behance.net/erinawambiekele',
-        lien2: ''
-    },
+
+
     {
 
         id: 8,
@@ -85,16 +75,7 @@ const projets = [
         lien2: '',
         video: require('../assets/video/harrypotter.webm'),
     },
-    {
-        id: 9,
-        title: 'Poste sur pinterest2',
-        année: 2021,
-        image: require('../assets/Floral Photo Fiançailles Faire-part Idées Blog Image (9).jpg'),
-        category: 'Design',
-        description: 'Le projet est un siteweb qui est un site gestion de donnée et un blog. Ce blog qui donne des conseils beauté sur les cheveux et les soins de la peau. De plus de frabriquer des produits cosmétiques.',
-        lien1: 'https://www.behance.net/erinawambiekele',
-        lien2: ''
-    },
+
     {
         id: 10,
         title: 'Carte de visite Serge',
@@ -125,14 +106,14 @@ const projets = [
         lien1: 'https://www.behance.net/gallery/137655791/holigreenCharlie-Logo',
         lien2: ''
     },
-     {
+    {
         id: 12,
-         title: 'Digital School France',
-         année: 2021,
+        title: 'Digital School France',
+        année: 2021,
         image: require('../assets/c61e94119064397.6095907157344.jpg'),
         category: 'Design',
         description: 'Le logo pour une influence sur instagramme  ',
-         lien1: 'https://www.behance.net/gallery/119064397/Projet-de-digital',
+        lien1: 'https://www.behance.net/gallery/119064397/Projet-de-digital',
         lien2: ''
     },
     {
@@ -153,34 +134,10 @@ const projets = [
         lien1: 'https://tallia-anne.github.io/jeuxhtml/',
         lien2: 'https://github.com/Tallia-Anne/jeuxhtml',
     },
+
+
+
     {
-        id: 15,
-        title: 'Calculatrice',
-        image: require('../assets/calculatrice.JPG'),
-        category: 'SiteWeb',
-        description: 'est une calculatrice avec le language javascript, HTML et CSS ',
-        lien1: 'https://tallia-anne.github.io/Calculatrice/calculatrice.html',
-        lien2: 'https://github.com/Tallia-Anne/Calculatrice',
-    }, 
-    {
-        id: 16,
-        title: 'Deviner le numéro magique',
-        image: require('../assets/numeromagice.JPG'),
-        category: 'SiteWeb',
-        description: 'Le projet avec le javascript. Il consiste a deviner le numéro magique et a le trouver',
-        lien1: 'https://tallia-anne.github.io/nombremagic/nombremagic.html',
-        lien2: 'https://github.com/Tallia-Anne/nombremagic',
-    },
-        {
-        id: 17,
-        title: 'Card',
-        image: require('../assets/Card.JPG'),
-        category: 'SiteWeb',
-        description: 'Le projet sont des cards' ,
-        lien1: 'https://tallia-anne.github.io/cardtallia/card',
-            lien2: 'https://github.com/Tallia-Anne/cardtallia',
-    },
-         {
         id: 18,
         title: 'Carte de viste de Tallia',
         image: require('../assets/cartevisitetallia.jpg'),
@@ -207,7 +164,7 @@ const projets = [
         lien2: '',
     },
 
-{
+    {
         id: 21,
         title: 'Legal Team Management',
         image: require('../assets/legalteam.JPG'),
@@ -234,7 +191,7 @@ const projets = [
         lien1: 'https://changer-le-fond-js.vercel.app/',
         lien2: '',
     }
-            , {
+    , {
         id: 24,
         title: 'Blog de podcast',
         image: require('../assets/seo.JPG'),
@@ -270,7 +227,7 @@ const projets = [
         lien1: '',
         lien2: '',
     }
-      , {
+    , {
         id: 28,
         title: 'Meteo',
         image: require('../assets/meteo.JPG'),
@@ -288,7 +245,7 @@ const projets = [
         lien1: '',
         lien2: 'https://github.com/Tallia-Anne/Dice-roll',
     }
-    
+
 ]
 
 export default projets
