@@ -7,8 +7,8 @@ padding: 20px;
 }
 
 .projets .cardprojet {
-width: 380px;
-height: 310px;
+width: 600px;
+height: 480px;
 padding: 12px;
 margin-bottom: 20px;
 cursor: pointer;
@@ -24,7 +24,6 @@ box-shadow: 0px -1px 5px 0px #787878bf;
 }
 
 .containerprojets ul {
-
     display: flex;
     list-style: none;
     justify-content: center;
