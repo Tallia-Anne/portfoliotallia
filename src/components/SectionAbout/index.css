@@ -38,12 +38,28 @@ height: 840px;
 .SectionAbout .SectionAbout_image  {
 height: 600px;
 width: 100%;
- order: -1; 
+
 }
 
 
 
-  .SectionAbout .SectionAboutText {
-    order: 1; /* Pour déplacer le texte après l'image */
-  }
+
+}
+
+@media only screen and (max-width: 320px) {
+.SectionAbout {
+display: grid;
+grid-template-columns: 1fr;
+height: 840px;
+}
+
+.SectionAbout .SectionAbout_image  {
+height: 600px;
+width: 100%;
+
+}
+
+
+
+
 }

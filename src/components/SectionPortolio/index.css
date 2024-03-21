@@ -34,3 +34,21 @@
     order: 1; /* Pour déplacer le texte après l'image */
   }
 }
+
+
+@media only screen and (max-width: 320px) {
+  .SectionPortfolio {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 600px;
+  }
+
+  .SectionPortfolio .SectionPortfolio_image {
+    height: 600px;
+    width: 100%;
+    order: -1;
+  }
+.SectionPortfolio .SectionPortfolioText {
+    order: 1; /* Pour déplacer le texte après l'image */
+  }
+}
