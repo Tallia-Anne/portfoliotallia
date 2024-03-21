@@ -38,5 +38,12 @@ height: 400px;
 .SectionAbout .SectionAbout_image  {
 height: 400px;
 width: 100%;
+ order: -1; 
 }
+
+
+
+  .SectionAbout .SectionAboutText {
+    order: 1; /* Pour déplacer le texte après l'image */
+  }
 }
