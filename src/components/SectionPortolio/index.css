@@ -49,6 +49,7 @@
     order: -1;
   }
 .SectionPortfolio .SectionPortfolioText {
-    order: 1; /* Pour déplacer le texte après l'image */
+    order: 1;
+    height: 450px; /* Pour déplacer le texte après l'image */
   }
 }
