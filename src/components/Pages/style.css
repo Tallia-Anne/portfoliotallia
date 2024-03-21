@@ -120,7 +120,7 @@ a {
 
 @media only screen and (max-width: 480px) {
   .Home {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
     grid-template-rows: auto;
     grid-template-areas:
       "hero"
