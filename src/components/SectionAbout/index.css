@@ -32,11 +32,11 @@ background-size: cover;
 .SectionAbout {
 display: grid;
 grid-template-columns: 1fr;
-height: 400px;
+height: 600px;
 }
 
 .SectionAbout .SectionAbout_image  {
-height: 400px;
+height: 600px;
 width: 100%;
  order: -1; 
 }

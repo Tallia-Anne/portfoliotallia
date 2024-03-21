@@ -23,6 +23,6 @@ background-size: cover;
 .SectionPortfolio {
 display: grid;
 grid-template-columns: 1fr;
-height: 400px;
+height: 600px;
 }
 }
