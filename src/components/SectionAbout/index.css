@@ -32,17 +32,17 @@ background-size: cover;
 .SectionAbout {
 display: grid;
 grid-template-columns: 1fr;
-height: 840px;
+height: 700px;
 }
 
 .SectionAbout .SectionAboutText {
-
-height: 600vh;
+padding: 22px;
+height: 350px;
 
 } 
 
 .SectionAbout .SectionAbout_image  {
-height: 600px;
+height: 350px;
 width: 100%;
 
 }
@@ -57,6 +57,7 @@ width: 100%;
 display: grid;
 grid-template-columns: 1fr;
 height: 1040px;
+background-color: brown;
 }
 
 .SectionAbout .SectionAbout_image  {

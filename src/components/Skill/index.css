@@ -203,6 +203,7 @@ svg circle:nth-child(2) {
     flex-direction: column;
     height: 2504px;
     overflow: hidden;
+   
   }
 
   .container .cardskill {
@@ -214,8 +215,9 @@ svg circle:nth-child(2) {
   .container {
     width: 100%;
     flex-direction: column;
-    height: 1180vh;
+    height: 780vh;
     overflow: hidden;
+  
   }
 
   .container .cardskill {

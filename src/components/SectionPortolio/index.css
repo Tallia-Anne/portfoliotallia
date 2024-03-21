@@ -22,16 +22,17 @@
   .SectionPortfolio {
     display: grid;
     grid-template-columns: 1fr;
-    height: 600px;
+    height: 700px;
   }
 
   .SectionPortfolio .SectionPortfolio_image {
-    height: 600px;
+    height: 350px;
     width: 100%;
     order: -1;
   }
 .SectionPortfolio .SectionPortfolioText {
-    order: 1; /* Pour déplacer le texte après l'image */
+    order: 1; 
+     height: 350px;
   }
 }
 
@@ -40,16 +41,17 @@
   .SectionPortfolio {
     display: grid;
     grid-template-columns: 1fr;
-    height: 900px;
+    height: 700px;
   }
 
   .SectionPortfolio .SectionPortfolio_image {
-    height: 600px;
+    height: 350px;
     width: 100%;
     order: -1;
   }
 .SectionPortfolio .SectionPortfolioText {
     order: 1;
-    height: 450px; /* Pour déplacer le texte après l'image */
+  padding: 22px;
+height: 350px;
   }
 }
