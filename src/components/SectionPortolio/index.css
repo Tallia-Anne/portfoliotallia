@@ -1,0 +1,28 @@
+.SectionPortfolio {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 500px;
+}
+
+.SectionPortfolio .SectionPortfolioText {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+}
+
+.SectionPortfolio .SectionPortfolio_image {
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+
+@media only screen and (max-width: 480px) {
+.SectionPortfolio {
+display: grid;
+grid-template-columns: 1fr;
+height: 400px;
+}
+}

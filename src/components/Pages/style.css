@@ -45,8 +45,8 @@ body {
     "sectintro sectintro sectintrogalerie1 sectiongalerie2"
     "sectionhomeparallaxe sectionhomeparallaxe sectionhomeparallaxe sectionhomeparallaxe "
     "main-app main-app main-app main-app "
-    /* "reactSlick reactSlick reactSlick reactSlick" */
-    "contact contact contact contact"
+    "SectionAbout SectionAbout SectionAbout SectionAbout"
+    "SectionPortfolio SectionPortfolio SectionPortfolio SectionPortfolio"
     "scroll-to-top scroll-to-top scroll-to-top scroll-to-top"
     "footer footer footer footer";
   font-size: 12px;
@@ -95,8 +95,15 @@ grid-area: scroll-to-top;
 grid-area: reactSlick;
 } */
 
+.SectionPortfolio {
+grid-area: SectionPortfolio;
+}
+
+.SectionAbout {
+grid-area: SectionAbout;
+}
+
 footer {
-  background: #1de9b6;
   grid-area: footer;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
@@ -122,8 +129,8 @@ a {
       "sectintrogalerie2"
       "sectionhomeparallaxe"
       "main-app"
-      /* "reactSlick" */
-      "contact"
+       "SectionAbout"
+      "SectionPortfolio"   
       "scroll-to-top"
       "footer";
   }

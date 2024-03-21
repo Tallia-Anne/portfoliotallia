@@ -7,8 +7,8 @@ import Sectintro from '../SecIntro';
 import Sectintrogalerie1 from '../Sectintogalerie1';
 import Sectintrogalerie2 from '../Sectintrogalerie2';
 import Sectionhomeparallaxe from '../Sectionhomeparallaxe';
-
-// import Filterprojet from '../Filterprojet'
+import SectionPortfolio from '../SectionPortolio';
+import SectionAbout from '../SectionAbout';
 import Scrolltotop from '../Scrolltotop';
 import Footer from '../Footer';
 // fin les sections
@@ -25,7 +25,8 @@ const Home = () => {
             <Sectintrogalerie1 />
             <Sectintrogalerie2 />
             <Sectionhomeparallaxe />
-            {/* <Filterprojet/>  */}
+            <SectionAbout/>
+          <SectionPortfolio/>
             <Scrolltotop />
             <Footer />
         </div>

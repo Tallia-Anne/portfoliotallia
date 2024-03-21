@@ -1,0 +1,37 @@
+.SectionAbout {
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 500px;
+}
+
+.SectionAbout .SectionAboutText {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+}
+
+.SectionAbout .SectionAboutText h3 {
+    font-size: 32px;
+}
+
+.SectionAbout .SectionAboutText p {
+    font-size: 18px;
+    text-justify: justify;
+}
+
+.SectionAbout .SectionAbout_image {
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+
+@media only screen and (max-width: 480px) {
+.SectionAbout {
+display: grid;
+grid-template-columns: 1fr;
+height: 400px;
+}
+}
