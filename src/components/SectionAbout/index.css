@@ -1,7 +1,7 @@
 .SectionAbout {
 display: grid;
 grid-template-columns: 1fr 1fr;
-height: 500px;
+height: 600px;
 }
 
 .SectionAbout .SectionAboutText {
@@ -36,7 +36,7 @@ height: 400px;
 }
 
 .SectionAbout .SectionAbout_image  {
-height: 100%;
+height: 400px;
 width: 100%;
 }
 }
