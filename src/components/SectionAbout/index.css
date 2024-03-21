@@ -50,11 +50,11 @@ width: 100%;
 .SectionAbout {
 display: grid;
 grid-template-columns: 1fr;
-height: 840px;
+height: 1040px;
 }
 
 .SectionAbout .SectionAbout_image  {
-height: 600px;
+height: 300px;
 width: 100%;
 
 }

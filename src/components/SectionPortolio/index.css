@@ -40,7 +40,7 @@
   .SectionPortfolio {
     display: grid;
     grid-template-columns: 1fr;
-    height: 600px;
+    height: 900px;
   }
 
   .SectionPortfolio .SectionPortfolio_image {
