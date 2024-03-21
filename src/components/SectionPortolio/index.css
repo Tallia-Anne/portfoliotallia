@@ -25,4 +25,10 @@ display: grid;
 grid-template-columns: 1fr;
 height: 600px;
 }
+
+.SectionPortfolio .SectionPortfolio_image {
+height: 600px;
+width: 100%;
+}
+
 }

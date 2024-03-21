@@ -32,7 +32,7 @@ background-size: cover;
 .SectionAbout {
 display: grid;
 grid-template-columns: 1fr;
-height: 600px;
+height: 840px;
 }
 
 .SectionAbout .SectionAbout_image  {
