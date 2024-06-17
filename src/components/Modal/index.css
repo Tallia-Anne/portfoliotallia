@@ -101,7 +101,7 @@ align-items: flex-start;
     /* align-content: center; */
     align-items: center;
     border-radius: 7px;
-         background-image: linear-gradient(to right, #ff0084 0%, #33001b 100%, #ff0084 40%);
+    background-color: black;
              
        
 }
