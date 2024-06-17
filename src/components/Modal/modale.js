@@ -30,7 +30,7 @@ const Modal = (props) => {
                     </div>
                     <div className="liens">
                         <a href={props.projet.lien1} className="bg-icone" ><FontAwesomeIcon icon={faGithub} /></a>
-                        <a href={props.projet.lien2} className="bg-icone" ><i class="gg-website"></i></a>
+                       
                        
                     </div>
                     
