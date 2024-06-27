@@ -42,6 +42,16 @@ const projets = [
         lien2: '',
     }
     , 
+     {
+        id: 5,
+        title: 'Inhouse',
+        image: require('../assets/inhouse.png'),
+        category: 'SiteWeb',
+        description: 'Découvrez notre gamme exclusive de produits electromaneger Chez Inhouse.  ',
+        lien1: '',
+        lien2: '',
+    }
+    , 
     
     {
         id: 6,
