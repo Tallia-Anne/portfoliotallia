@@ -31,8 +31,20 @@ const projets = [
         description: 'Le projet est un design UX réaliser par figma',
         lien1: 'https://www.behance.net/gallery/141731711/Youtube-premium',
         lien2: ''
-    }, {
+    },
+    {
         id: 4,
+        title: 'FreshComesty',
+        image: require('../assets/commerce.png'),
+        category: 'SiteWeb',
+        description: 'Découvrez notre gamme exclusive de produits cosmétiques, soigneusement sélectionnés pour sublimer votre beauté naturelle. Chez FreshComesty, nous croyons que chaque personne mérite des soins de qualité, adaptés à ses besoins spécifiques.  ',
+        lien1: 'https://commerce-five-xi-70.vercel.app/',
+        lien2: '',
+    }
+    , 
+    
+    {
+        id: 6,
         title: 'Mango',
         année: 2022,
         image: require('../assets/Mangomaquette_page-0001.jpg'),
@@ -42,7 +54,7 @@ const projets = [
         lien2: ''
     },
     {
-        id: 5,
+        id: 7,
         title: 'Maquette de stranger thing',
         année: 2022,
         image: require('../assets/strangerthings.jpg'),
@@ -52,7 +64,7 @@ const projets = [
         lien2: ''
     },
     {
-        id: 6,
+        id: 8,
         title: 'Poste sur pinterest1',
         année: 2021,
         image: require('../assets/Floral Photo Fiançailles Faire-part Idées Blog Image (1).jpg'),
@@ -65,7 +77,7 @@ const projets = [
 
     {
 
-        id: 8,
+        id: 9,
         title: 'Harry Potter',
         année: 2022,
         image: require('../assets/harryordi.jpg'),
@@ -97,7 +109,7 @@ const projets = [
         lien2: ''
     },
     {
-        id: 11,
+        id: 12,
         title: 'Holigreen Charlie',
         année: 2022,
         image: require('../assets/logoholi.webp'),
@@ -107,7 +119,7 @@ const projets = [
         lien2: ''
     },
     {
-        id: 12,
+        id: 13,
         title: 'Digital School France',
         année: 2021,
         image: require('../assets/c61e94119064397.6095907157344.jpg'),
@@ -117,7 +129,7 @@ const projets = [
         lien2: ''
     },
     {
-        id: 13,
+        id: 14,
         title: 'Dyslogie',
         image: require('../assets/dyslogieweb.JPG'),
         category: 'SiteWeb',
@@ -126,7 +138,7 @@ const projets = [
         lien2: 'https://github.com/Tallia-Anne/Dyslogiereact',
     },
     {
-        id: 14,
+        id: 15,
         title: 'Jeuxhtml',
         image: require('../assets/jeuxhtml.JPG'),
         category: 'SiteWeb',
@@ -138,7 +150,7 @@ const projets = [
 
 
     {
-        id: 18,
+        id: 16,
         title: 'Carte de viste de Tallia',
         image: require('../assets/cartevisitetallia.jpg'),
         category: 'Design',
@@ -147,7 +159,7 @@ const projets = [
         lien2: '',
     }
     , {
-        id: 19,
+        id: 17,
         title: 'Initiative243',
         image: require('../assets/initiativesphoto.jpg'),
         category: 'SiteWeb',
@@ -155,7 +167,7 @@ const projets = [
         lien1: 'https://initiative243.org/',
         lien2: '',
     }, {
-        id: 20,
+        id: 18,
         title: 'Quiz anime',
         image: require('../assets/manga.JPG'),
         category: 'SiteWeb',
@@ -165,7 +177,7 @@ const projets = [
     },
 
     {
-        id: 21,
+        id: 19,
         title: 'Legal Team Management',
         image: require('../assets/legalteam.JPG'),
         category: 'SiteWeb',
@@ -174,7 +186,7 @@ const projets = [
         lien2: '',
     }
     , {
-        id: 22,
+        id: 20,
         title: 'SakuraFlower',
         image: require('../assets/sakuraflower.JPG'),
         category: 'SiteWeb',
@@ -183,7 +195,7 @@ const projets = [
         lien2: '',
     }
     , {
-        id: 23,
+        id: 21,
         title: 'changer-le-fond',
         image: require('../assets/fond.JPG'),
         category: 'SiteWeb',
@@ -192,7 +204,7 @@ const projets = [
         lien2: '',
     }
     , {
-        id: 24,
+        id: 22,
         title: 'Blog de podcast',
         image: require('../assets/seo.JPG'),
         category: 'SiteWeb',
@@ -201,7 +213,7 @@ const projets = [
         lien2: 'https://github.com/Tallia-Anne/Seo_projet',
     }
     , {
-        id: 25,
+        id: 23,
         title: 'Application mobile UI E-commerce',
         image: require('../assets/14figmag2r.jpg'),
         category: 'Design',
@@ -210,7 +222,7 @@ const projets = [
         lien2: '',
     }
     , {
-        id: 26,
+        id: 24,
         title: 'Application de Bureau de Trading',
         image: require('../assets/14figmag2r.jpg'),
         category: 'Application Bureau',
@@ -219,7 +231,7 @@ const projets = [
         lien2: '',
     },
     {
-        id: 27,
+        id: 25,
         title: 'Application de Bureau de Generateur de mot de passe',
         image: require('../assets/generateurmtp.JPG'),
         category: 'Application Bureau',
@@ -228,7 +240,7 @@ const projets = [
         lien2: '',
     }
     , {
-        id: 28,
+        id: 26,
         title: 'Meteo',
         image: require('../assets/meteo.JPG'),
         category: 'SiteWeb',
@@ -237,7 +249,7 @@ const projets = [
         lien2: 'https://github.com/Tallia-Anne/meteo',
     }
     , {
-        id: 29,
+        id: 27,
         title: 'Dé App',
         image: require('../assets/gif/ezgif.com-video-to-gif.gif'),
         category: 'Application mobile',
