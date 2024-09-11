@@ -267,7 +267,15 @@ const projets = [
         lien1: '',
         lien2: 'https://github.com/Tallia-Anne/Dice-roll',
     }
-
+ , {
+        id: 28,
+        title: 'RIZE 4 U',
+        image: require('../assets/RIZE4U.png'),
+        category: 'Design',
+        description: "Projet sur un site web de e-commerce de sport ",
+        lien1: '',
+        lien2: 'https://www.behance.net/gallery/207696331/RIZE-4-U',
+    }
 ]
 
 export default projets
