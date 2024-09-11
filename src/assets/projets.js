@@ -273,8 +273,8 @@ const projets = [
         image: require('../assets/RIZE4U.png'),
         category: 'Design',
         description: "Projet sur un site web de e-commerce de sport ",
-        lien1: '',
-        lien2: 'https://www.behance.net/gallery/207696331/RIZE-4-U',
+        lien1: 'https://www.behance.net/gallery/207696331/RIZE-4-U',
+        lien2: '',
     }
 ]
 
