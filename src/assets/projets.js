@@ -230,15 +230,7 @@ const projets = [
         lien1: 'https://www.behance.net/gallery/168339867/e-commerce',
         lien2: '',
     }
-    , {
-        id: 24,
-        title: 'Application de Bureau de Trading',
-        image: require('../assets/14figmag2r.jpg'),
-        category: 'Application Bureau',
-        description: 'Ce projet est un application de bureau sur Electron.js  ',
-        lien1: '',
-        lien2: '',
-    },
+    , 
     {
         id: 25,
         title: 'Application de Bureau de Generateur de mot de passe',
