@@ -1,11 +1,10 @@
-const projet1 = "https://afro-dream.fr/img/header%20(1).03800f06.jpg"
 
 const projets = [
 
     {
         id: 1,
         title: 'Afro-dream',
-        image: projet1,
+        image: require('../assets/Afro.JPG'),
         category: 'SiteWeb',
         année: 2021,
         description: 'Le projet est un siteweb qui est un site e-commerce qui vend des produits pour les cheveux qui concerne tous les femmes. Qui permet de les aider à trouver tes bons produits',
