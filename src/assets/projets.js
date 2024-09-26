@@ -143,7 +143,7 @@ const projets = [
         image: require('../assets/dyslogieweb.JPG'),
         category: 'SiteWeb',
         description: 'Ce site va permet de trouver des sites ou logiciels pour aider les personnes qui souffrent d’un trouble apprentissage facilité au travail et à lécole. Et prendre du plaisir pour d’apprendre les cours ou la lecture. À progresser au niveau des études. Et de prendre facilement les prises de notes.Cela permet daider aux parents de montrer à leur enfants de travailler ensemble',
-        lien1: 'dyslogiereact.vercel.app',
+        lien1: 'http://dyslogie.fr/',
         lien2: 'https://github.com/Tallia-Anne/Dyslogiereact',
     },
     {
