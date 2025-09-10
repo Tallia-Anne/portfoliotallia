@@ -32,7 +32,7 @@ const Header = () => {
                         <li>  <Link to="/" className='navigation__link' > <div className="bglogo">
                             <div className="logotallia" style={{ backgroundImage: `url(${logotallia})` }}  ></div>
                         </div>  </Link>   </li>
-                        <li><Link to="/" className='navigation__link' >  Acceuil </Link>  </li>
+                        <li><Link to="/" className='navigation__link' >  Accueil </Link>  </li>
                         <li><Link to="/about" className='navigation__link' >  A propos </Link>  </li>
                         <li> <Link to="/portfolio" className='navigation__link' > Portfolio</Link></li>
                         {/* <li> <Link to="/test" className='navigation__link'  > Blog</Link></li> */}
