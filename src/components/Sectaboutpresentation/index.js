@@ -18,15 +18,7 @@ const Sectaboutpresentation = () => {
             </div>
             <div className="sectabout-person">
                 <h3>Bonjour! Je suis Tallia</h3>
-                <p className='textpre' >J'ai 22 ans.
-                    J'habite à Eragny sur Oise dans le département de val d'oise.
-                    Je suis allée dans une école qui s'appelle l'école de seconde chance qui m'aidait à trouver cette formation développeur web et web mobile à Digital France School.
-                    Diplômé du titre professionnel de Développeur web et web mobile du bac +2.
-                    J'aime expérimenter, découvrir et apprendre des nouvelles technologies.
-                    Dans ce portfolio que j'ai réalisé, je vais vous présenter mes compétences.
-                    Mon parcours ainsi que mes principales intégrations et créations graphiques.
-                    Deplus, je vous propose mes services comme des création de sites, adaptés tous support (mobile, tablette, ordinateur) , des maquettes et des logos.
-                    Pour toute question, n’hésitez pas à me contacter. 
+                <p className='textpre' >J'ai 25 ans. J'habite à Eragny sur Oise dans le département de val d'oise. J’ai fait l'école de seconde chance qui m'a aidée à trouver une formation développeur web et web mobile à Digital France School. Diplômée du titre professionnel de Développeur web et web mobile du bac +2., j'aime expérimenter, découvrir et apprendre des nouvelles technologies. Dans ce portfolio, je vous présente mes compétences, mon parcours ainsi que mes principales intégrations et créations graphiques. Je vous propose mes services comme des création de sites, adaptés tous support (mobile, tablette, ordinateur) , des maquettes et des logos. Pour toute question, n’hésitez pas à me contacter.
 
                 </p>
                 <a href={Cv} download='Cv'><button type='submit'>Télécharger le CV</button></a> 
