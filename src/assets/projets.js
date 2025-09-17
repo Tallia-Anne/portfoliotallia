@@ -4,7 +4,7 @@ const projets = [
     {
         id: 1,
         title: 'Afro-dream',
-        image: require('../assets/Afro.JPG'),
+        image: require('../assets/code.jpg'),
         category: 'SiteWeb',
         année: 2021,
         description: 'Le projet est un siteweb qui est un site e-commerce qui vend des produits pour les cheveux qui concerne tous les femmes. Qui permet de les aider à trouver tes bons produits',
@@ -167,15 +167,7 @@ const projets = [
         lien1: 'https://www.behance.net/gallery/127604347/Serge-Thierry-international',
         lien2: '',
     }
-    , {
-        id: 17,
-        title: 'Initiative243',
-        image: require('../assets/initiativesphoto.jpg'),
-        category: 'SiteWeb',
-        description: 'Initiative 243 est une association internationale fondée en France selon la loi 1901 et dont l’objectif est de fédérer des compétences internationales dans la promotion et la réalisation, en France et en République Démocratique du Congo, des projets éducatifs, culturels et socio-économiques durables. ',
-        lien1: 'https://initiative243.org/',
-        lien2: '',
-    }, {
+    ,  {
         id: 18,
         title: 'Quiz anime',
         image: require('../assets/manga.JPG'),
@@ -185,15 +177,15 @@ const projets = [
         lien2: '',
     },
 
-    {
-        id: 19,
-        title: 'Legal Team Management',
-        image: require('../assets/legalteam.JPG'),
-        category: 'SiteWeb',
-        description: 'LTM vous accompagne dans votre projet d’entreprise, de l’idée de création jusqu’à la réalisation des formalités nécessaires pour mettre en place votre structure. Quelle que soit la forme juridique envisagée, vous bénéficiez d’un accompagnement personnalisé et adapté à votre projet de création. ',
-        lien1: 'http://www.legalteam-management.fr/index.php/about-us/',
-        lien2: '',
-    }
+    // {
+    //     id: 19,
+    //     title: 'Legal Team Management',
+    //     image: require('../assets/legalteam.JPG'),
+    //     category: 'SiteWeb',
+    //     description: 'LTM vous accompagne dans votre projet d’entreprise, de l’idée de création jusqu’à la réalisation des formalités nécessaires pour mettre en place votre structure. Quelle que soit la forme juridique envisagée, vous bénéficiez d’un accompagnement personnalisé et adapté à votre projet de création. ',
+    //     lien1: 'http://www.legalteam-management.fr/index.php/about-us/',
+    //     lien2: '',
+    // }
     , {
         id: 20,
         title: 'SakuraFlower',
